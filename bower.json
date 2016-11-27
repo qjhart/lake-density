@@ -1,0 +1,20 @@
+{
+  "name": "lake-density",
+  "description": "Get the amount of lake surface area for California Counties.",
+  "main": "county_lake_summary.csv",
+  "authors": [
+    "Quinn Hart <qjhart@ucdavis.edu>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "california-counties": "CSTARS/california-counties#1.0.0"
+  }
+}
